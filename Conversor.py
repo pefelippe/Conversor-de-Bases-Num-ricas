@@ -1,6 +1,6 @@
 from tkinter import *
 
-#funções
+# funções
 def binario ():
     num= int(ed.get(), 2)
     lb4["text"] = 'Convertido para a base Octal: {}'.format(oct(num)[2:])
@@ -22,13 +22,13 @@ def hexadecimal():
     lb5["text"] = 'Convertido para a base Octal: {}'.format(oct(num)[2:])
     lb6["text"] = 'Convertido para a base Decimal: {}'.format(int(num))
 
-#configurações da janela
+# configurações da janela
 janela = Tk()
 janela.geometry("585x380+400+200")
 janela.title ("Conversor de Bases")
 
 
-#labels
+# labels
 lb1= Label(janela, text="Digite seu número abaixo:")
 lb1.place(x=180, y = 0) 
 lb2= Label(janela, text="Informe a BASE ATUAL do seu número: ")
@@ -44,11 +44,11 @@ lb6.place(x=30, y=310)
 lb7 = Label (janela, text = "Obrigado por usar!")
 lb7.place(x=450, y = 340)
 
-#entrada de dados   
+# entrada de dados   
 ed =  Entry (janela)
 ed.place(x=205, y= 25)
 
-#botões
+# botões
 bt1 = Button(janela, width=20, text = "Binária", command = binario)
 bt1.place(x= 200, y=90)
 bt2 = Button(janela, width = 20, text = "Octal", command = octal)
