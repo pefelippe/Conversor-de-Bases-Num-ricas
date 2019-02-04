@@ -1,3 +1,2 @@
 # Conversor-de-Bases-Numericas
-trabalho realizado p/ aula de Circuitos Lógicos
-feito por Pedro Felippe
+Trabalho realizado p/ aula de Circuitos Lógicos, feito por Pedro Felippe
